@@ -1,0 +1,66 @@
+html, body {
+    font-family: "Cantarell Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container nav {
+margin: 0;
+padding: 0;
+list-style: none;
+
+display: flex;
+border-width: 2px;
+border-style: solid;
+background: #ffd440;
+color: darkred;
+font-weight: bold;
+}
+.container nav ul li{
+    padding: 0.5em 1em;
+    display: inline;
+}
+
+.push {
+  margin-left: 90em;
+
+}
+
+.main-presentation {
+    display: block;
+    /*column-count: 2;*/
+    text-align: center;
+}
+
+.main-presentation h1 {
+    border-style: dotted;
+    border-width: 2px;
+    font-size: 1.2em;
+    margin: 1em;
+}
+.main-presentation section {
+    border-style: dotted;
+    border-width: 2px;
+    margin-left: 50em;
+}
+
+.main-presentation section {
+    display: flex;
+    column-count: 3;
+    /*margin-top: 10px;*/
+
+
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.main-presentation section p {
+    border-style: dotted;
+    border-width: 2px;
+}
