@@ -42,7 +42,7 @@ nav ul{
     margin: 0;
     padding: 0;
     background-color: #ffd440;
-
+    color: #1a1a2e;
     /*display: flex;*/
     border-style: solid;
     border-color: #e9ecef;
@@ -78,9 +78,85 @@ nav ul li a:hover {
 
 .presentation-personne {
     border: cadetblue solid 2px;
-    display: flex;
+    display: block;
 
 }
+
+.presentation-personne h1 {
+    border: cadetblue solid 2px;
+    /*display: block;*/
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a2e;
+
+}
+
+.presentation-personne section {
+    border: cadetblue solid 2px;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    /*text-align: center;*/
+
+}
+
+.presentation-personne section p {
+    border: cadetblue solid 2px;
+    /*display: inline;*/
+    /*flex-direction: row;*/
+    text-align:  center;
+    /*text-align: center;*/
+    color: #4a4a5a;
+
+}
+
+.presentation-personne section span {
+    border: cadetblue solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+ presentation-personne section ul{
+    border: cadetblue solid 2px;
+    list-style-type: numeric;
+
+
+
+}
+
+ .distance-line{
+      padding: 20px;
+      /*margin: 60px;*/
+     margin-bottom: 120px;
+     padding: 50px;
+ }
+
+ .presentation-project {
+    border: cadetblue solid 2px;
+    display: block;
+
+}
+
+ .presentation-project section {
+    border: cadetblue solid 2px;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    /*text-align: center;*/
+
+}
+ .presentation-project section h2 {
+     border: cadetblue solid 2px;
+    /*display: block;*/
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a2e;
+ }
 
 /*display: flex;*/
 /*border-width: 2px;*/
