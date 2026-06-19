@@ -3,24 +3,24 @@
 
 <head>
    <style>
-      .container {
-         display: flex;
-         justify-content: space-around;
-         gap: 10px;
-         border: 2px solid black;
-         height: 200px;
-         padding: 5px;
-      }
 
-      .container>div {
-         background-color: lightblue;
-         text-align: center;
-         bordeR: 2px solid blue;
-         color: white;
-         padding: 15px;
-         height: 20px;
-         width: 60px;
-      }
+       .conteneur {
+  display: flex;
+  flex-wrap: wrap;           /* Permet le retour à la ligne */
+  width: 330px;              /* Largeur totale = 3 × (100px + 10px) */
+  gap: 10px;                 /* Espacement entre les éléments */
+}
+
+.conteneur div {
+  flex: 0 0 100px;          /* Ne pas grandir, ne pas rétrécir, base de 100px */
+  height: 100px;            /* Hauteur fixe pour faire un carré */
+  background: lightblue;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
    </style>
 </head>
 
@@ -31,7 +31,7 @@
    <h4>
       justify-content: space-around; display:flex
    </h4>
-   <div class="container">
+   <div class="conteneur">
       <div>
          Item-1
       </div>
