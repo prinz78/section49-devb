@@ -11,6 +11,7 @@ html, body {
     border-style: dashed;
     border-width: 1px;
     background: #f8f9fa;
+    flex-wrap: wrap;
 }
 
 /*.container {*/
@@ -143,9 +144,11 @@ nav ul li a:hover {
 
  .presentation-project section {
     border: cadetblue solid 2px;
-    display: inline;
-    flex-direction: row;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
     /*text-align: center;*/
 
 }
@@ -156,6 +159,63 @@ nav ul li a:hover {
     font-size: 20px;
     font-weight: bold;
     color: #1a1a2e;
+ }
+
+.presentation-project section article {
+     border: cadetblue solid 2px;
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    /*display: block;*/
+    /*text-align: center;*/
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left:50px;
+    color: #1a1a2e;
+
+ }
+
+.presentation-project section article h3 {
+     border: greenyellow solid 2px;
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    /*display: block;*/
+    /*text-align: center;*/
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left:300px;
+    color: #1a1a2e;
+
+ }
+
+.presentation-project section article p {
+     border: indianred solid 2px;
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    /*display: block;*/
+    /*text-align: center;*/
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left:100px;
+    margin-right:20px;
+    color: #1a1a2e;
+
+ }
+
+.presentation-project section>a {
+     /*border: darkmagenta solid 2px;*/
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    /*display: block;*/
+    /*text-align: center;*/
+    font-size: 20px;
+    font-weight: revert-layer;
+    margin-left: 500px;
+    margin-left: 500px;
+    margin-right:20px;
+    margin-bottom: 100px;
+    color: #1a1a2e;
+    text-decoration: none;
+
  }
 
 /*display: flex;*/
