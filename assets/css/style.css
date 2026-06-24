@@ -186,7 +186,6 @@ nav ul li a:hover {
     font-size: 20px;
     font-weight: revert-layer;
     margin-left: 500px;
-    margin-left: 500px;
     margin-right:20px;
     margin-bottom: 100px;
     color: #1a1a2e;
@@ -216,7 +215,7 @@ nav ul li a:hover {
     gap: 15px;
     font-weight: bold;
     color: #1a1a2e;
-    margin: 100px;
+    margin: 50px;
     justify-content: center;
  }
 
@@ -231,6 +230,31 @@ nav ul li a:hover {
   align-content: center;
     /*justify-content: space-around;*/
  }
+
+.articles-project section>a {
+    font-size:  20px;
+    font-weight: revert-layer;
+    margin-left: 890px;
+    margin-right:20px;
+    margin-bottom: 100px;
+    color: #1a1a2e;
+    text-decoration: none;
+}
+.section-contact {
+    border: cadetblue solid 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact h2 {
+    border: orangered solid 2px;
+    margin-left: 100px;
+}
+
+.section-contact p {
+    border: cornflowerblue solid 2px;
+    margin-left: 400px;
+}
 
 /*display: flex;*/
 /*border-width: 2px;*/
