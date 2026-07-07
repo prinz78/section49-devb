@@ -232,6 +232,29 @@ nav ul li a:hover {
     /*justify-content: space-around;*/
  }
 
+.articles-project>section>a {
+   font-size: 20px;
+    font-weight: revert-layer;
+    margin-left: 500px;
+
+    margin-right:20px;
+    margin-bottom: 100px;
+    color: #1a1a2e;
+    text-decoration: none;
+}
+
+.contact-project {
+    border: indianred solid 2px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content-project>section {
+    margin-right:20px;
+    margin-bottom: 100px;
+}
+
 /*display: flex;*/
 /*border-width: 2px;*/
 /*border-style: solid;*/
