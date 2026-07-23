@@ -16,26 +16,3 @@ __pycache__/
 .env
 *.db
 *.log
-<!--   <style>-->
-<!--       .conteneur {-->
-<!--  display: flex;-->
-<!--  flex-wrap: wrap;           /* Permet le retour à la ligne */-->
-<!--  width: 1000px;              /* Largeur totale = 3 × (100px + 10px) */-->
-<!--  gap: 10px;                 /* Espacement entre les éléments */-->
-<!--  border: indianred solid 2px;-->
-<!--  justify-content: center;-->
-<!--}-->
-
-<!--.conteneur div {-->
-<!--  flex: 0 0 300px;          /* Ne pas grandir, ne pas rétrécir, base de 100px */-->
-<!--  height: 300px;            /* Hauteur fixe pour faire un carré */-->
-<!--  background: lightblue;-->
-<!--  border: 1px solid #333;-->
-<!--  display: flex;-->
-<!--  align-items: center;-->
-<!--  justify-content: center;-->
-<!--  align-content: center;-->
-
-<!--}-->
-
-<!--   </style>-->
